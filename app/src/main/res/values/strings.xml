@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Naari Rakshak</string>
+
+    //Headings
+    <string name="heading_one">Add Relative</string>
+    <string name="heading_two">Helpline Numbers</string>
+    <string name="heading_three">Sharing Location</string>
+    <string name="heading_fourth">Fake Siren</string>
+
+    //Description
+    <string name="desc_one">Register your relative contact number whom you want to contact in case of emergency</string>
+    <string name="desc_two"> Instead of sending location you can do few more things like call on helpline number and playing police siren sound</string>
+    <string name="desc_three">Send your location to your registered contact number by simply shaking your phone</string>
+    <string name="desc_fourth">You can also play Police siren sound in case of extreme emergency </string>
+
+</resources>

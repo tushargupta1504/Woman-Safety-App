@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1d5c9">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="550dp"
+        android:layout_height="760dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.08"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/naarirakshak" />
+
+    <ImageButton
+        android:id="@+id/button5"
+        android:layout_width="210dp"
+        android:layout_height="200dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/btn4" />
+
+    <ImageButton
+        android:id="@+id/button6"
+        android:layout_width="210dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="160dp"
+        android:background="@android:color/transparent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn2" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="145dp"
+        android:layout_height="63dp"
+        android:text="Logout"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/button8"
+        android:layout_width="210dp"
+        android:layout_height="200dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/btn3" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="210dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/button"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/btn1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

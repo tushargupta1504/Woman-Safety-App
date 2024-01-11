@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1d5c9">
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="152dp"
+        android:text="Women In Distress"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="48dp"
+        android:text="Domestic Abuse"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button9" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:text="Police"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button10" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:text="Student Helpline"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button11"
+        app:layout_constraintVertical_bias="0.181" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="550dp"
+        android:layout_height="761dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.08"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.302"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/naarirakshak" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

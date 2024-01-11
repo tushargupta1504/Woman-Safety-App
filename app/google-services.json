@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "126294461762",
+    "project_id": "narirakshak",
+    "storage_bucket": "narirakshak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126294461762:android:e982f787a22d4dece44cdb",
+        "android_client_info": {
+          "package_name": "com.decodehelloworld.naarirakshak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126294461762-s8psd4t43bkubp6fe0e1vev31q833qh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Dj5pW3RuuKYzeqipVCS4sAXPiL5mGME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126294461762-s8psd4t43bkubp6fe0e1vev31q833qh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
