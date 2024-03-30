@@ -1,8 +1,4 @@
-# NAARI-RAKSHAK
-This repository is created for MINI-PROJECT under my 3rd semester and named as "NAARI-RAKSHAK".
-NAARI-RAKSHAK is an app created for safety of everyone but specially focused on womens .
-The overall evaluation can be broken down into three major steps, each of which is described 
-separately. 
+
 In three major steps, evaluation describes the entire operation of the application: 
 1. The first and most important step is to fill out the contact information in the application that has 
 been created. Those contacts could include our relatives, friends, and the police. When the app is 
